@@ -1,9 +1,24 @@
 import React from 'react';
+import { useLocation, HashRouter as Router, Route, Routes, } from "react-router-dom";
+import Home from './pages/Home'
+
+function RouteContainer() {
+  const location = useLocation()
+
+  return (
+    <Routes location={location} key={location.key}>
+      <Route exact path="/" element={<Home />} />
+    </Routes>
+  )
+
+}
 
 function App() {
   return (
     <>
-      <h1>Website still under construction!</h1>
+      <Router>
+        <RouteContainer />
+      </Router>
     </>
   );
 }
