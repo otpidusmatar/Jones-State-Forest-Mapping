@@ -7,11 +7,10 @@ In April 2024, a team of four students decided to do a project that maps the wat
   **Aniket Chakraborty**: Team Captain, Data Analyst, Web Developer, and Writer
   
   **Mark Devault**: Sample Collector, Experiment Conductor, Writer
+
+  **Ashwin Tripathi**: Presentation Designer, X-Ray Diffractomer User, Writer
   
   **Umran Zaidi**: Experiment Conductor, Writer
-  
-  **Ashwin Tripathi**: Presentation Designer, X-Ray Diffractomer User, Writer
-
 
 Data about the alkalinity and ammonia contents of water samples collected have been mapped, and the maps are stored in this repository. 
 
